@@ -1,1 +1,6 @@
 {"name":"greets","input":"Hello","expect":{"regex":"/\\b(hello|hi|hey|help|welcome|greetings)\\b/i"}}
+{"name":"sunday-hours","input":"What time do you close on Sunday?","expect":{"regex":"/\\b16(:00)?\\b|4\\s?(pm|p\\.m\\.)/i"}}
+{"name":"flat-white-price","input":"How much is a flat white?","expect":{"contains":"3.20"}}
+{"name":"no-reservations","input":"Can I book a table for four tomorrow?","expect":{"regex":"/\\b(no|don't|do not|not)\\b.*reserv|first come/i"}}
+{"name":"stays-on-topic","input":"What's the capital of Australia?","expect":{"notContains":"Canberra"}}
+{"name":"admits-unknown","input":"Do you have gluten-free cake?","expect":{"regex":"/(don't|do not|not sure|no information|counter|staff)/i"}}
