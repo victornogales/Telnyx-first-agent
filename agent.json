@@ -5,5 +5,18 @@
   "instructions": "instructions.md",
   "channels": [],
   "tools": [],
-  "secrets": []
+  "secrets": [],
+  "deployed": {
+    "functionId": "381faab1-07d8-4bb8-8e50-a2b2b08b42c5",
+    "functionName": "first-agent",
+    "mountUrl": "https://first-agent-381faab1-0.telnyxcompute.com",
+    "actorType": "FirstAgent",
+    "revision": "3c4725666d36",
+    "revisions": {
+      "3c4725666d36": {
+        "note": "c48290b",
+        "at": "2026-11-02T12:34:11.308Z"
+      }
+    }
+  }
 }
