@@ -1,0 +1,7 @@
+# written by `telnyx-acp deploy`; never commit it
+.telnyx/
+node_modules/
+
+# local secrets
+.env
+.env.*

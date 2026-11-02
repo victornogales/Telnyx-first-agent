@@ -1,0 +1,9 @@
+{
+  "name": "first-agent",
+  "kind": "configuration",
+  "model": "zai-org/GLM-5.3-Flash",
+  "instructions": "instructions.md",
+  "channels": [],
+  "tools": [],
+  "secrets": []
+}

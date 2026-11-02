@@ -1,0 +1,1 @@
+{"name":"greets","input":"Hello","expect":{"regex":"/\\b(hello|hi|hey|help|welcome|greetings)\\b/i"}}
